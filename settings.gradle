@@ -1,0 +1,2 @@
+rootProject.name='StartAndroid2'
+include ':app'
