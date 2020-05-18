@@ -1,2 +1,3 @@
 rootProject.name='StartAndroid2'
 include ':app'
+include ':p0481_simpleadapter'
