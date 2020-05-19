@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/p0481_simpleadapter" />
             <option value="$PROJECT_DIR$/p0491_simpleadaptercustom1" />
+            <option value="$PROJECT_DIR$/p0501_simpleadaptercustom2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
