@@ -12,8 +12,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     int DIALOG_DATA = 1;
     int myYear = 2020;
-    int myMonth = 02;
-    int myDay = 03;
+    int myMonth = 2;
+    int myDay = 3;
 
     TextView tvDate;
 
