@@ -12,7 +12,7 @@ public class MyObject implements Parcelable {
     public int i;
 
     //обычный конструктор
-    public MyObject (String _s, int _i){
+    public MyObject(String _s, int _i) {
         Log.d(TAG, "MyObject(String _s, int _i)");
         s = _s;
         i = _i;
@@ -31,7 +31,7 @@ public class MyObject implements Parcelable {
         parcel.writeInt(i);
     }
 
-    public static final Parcelable.Creator<MyObject> CREATOR = new Parcelable.Creator<MyObject>(){
+    public static final Parcelable.Creator<MyObject> CREATOR = new Parcelable.Creator<MyObject>() {
         //распаковываем объект из Parcel
         @Override
         public MyObject createFromParcel(Parcel parcel) {
@@ -46,7 +46,7 @@ public class MyObject implements Parcelable {
     };
 
     //конструктор, считывающий данные из Parcel
-    private MyObject(Parcel parcel){
+    private MyObject(Parcel parcel) {
         Log.d(TAG, "MyObject(Parcel parcel)");
         s = parcel.readString();
         i = parcel.readInt();

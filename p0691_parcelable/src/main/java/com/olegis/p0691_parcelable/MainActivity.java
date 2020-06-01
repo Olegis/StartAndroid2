@@ -1,11 +1,11 @@
 package com.olegis.p0691_parcelable;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onclick(View v){
+    public void onclick(View v) {
         MyObject myObject = new MyObject("text", 1);
         Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra(MyObject.class.getCanonicalName(), myObject);
