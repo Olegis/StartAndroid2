@@ -1,3 +1,4 @@
+include ':p0691_parcelable'
 include ':p0681_parcel'
 include ':p0671_progressdialog'
 include ':p0621_alertdialogitems'
