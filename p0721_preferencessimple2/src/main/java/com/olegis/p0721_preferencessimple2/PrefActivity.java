@@ -1,7 +1,5 @@
 package com.olegis.p0721_preferencessimple2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
